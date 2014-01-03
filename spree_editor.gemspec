@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'ckeditor'
-  s.add_dependency 'spree_backend', '>= 2.1.0'
+  s.add_dependency 'spree_backend', github: 'spree/spree', branch: '2-1-stable'
   s.add_dependency 'tinymce-rails', '~> 3.5.8.3'
 
   s.add_development_dependency 'capybara', '~> 2.1'
